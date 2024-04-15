@@ -1,0 +1,349 @@
+.titulo{
+    background: linear-gradient(170deg, rgb(5, 35, 90) 10%, #2993ad 70%);
+    text-align: center;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: gray;
+    color: rgb(254, 254, 254);
+    text-shadow: black 10px;
+    font-family:  sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    
+}
+
+.box1{
+    width: 500px;
+    min-height: 110px;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(11, 47, 85) 40%, grey 100% );   
+    font-family: "Roboto Slab", serif;  
+    font-optical-sizing: auto;  
+    font-weight: weight;     
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    text-align: justify;
+
+    
+}
+
+.principal{
+    background-image: url(https://www2.fiap.com.br/updown/Shift/curso/38A5D85C-59F0-48DE-98F3-DBBE160A98CD.PNG);
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    align-content: center;
+    gap: 80px;
+    
+}
+
+.header{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img_logo{
+    margin-left: 0%;
+    width: 120px;
+    top: 10;
+    position: absolute;
+    left: 0%;
+}
+
+.Cursos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 120px;
+    border: 2px solid rgb(61, 159, 201);
+    padding: 10px 48px;
+    background: linear-gradient(rgb(11, 47, 85) 40%, grey 100% );  
+    margin-left: 150px;
+   
+}
+
+a{
+    background:linear-gradient(rgb(255, 255, 255), rgb(42, 133, 186) );
+    border-radius: 3%;
+    width: 250px;
+    text-align: center; 
+    transition: all 0.5s;
+}
+
+a:hover{
+   background: linear-gradient(rgb(63, 119, 151) 40%, rgb(139, 139, 139) 100% );  
+}
+
+.img_cursos{
+    width: 470px;
+    padding-top: 15px;
+
+}
+
+.background{
+    background: linear-gradient(170deg, white , black, grey);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body{
+    background: linear-gradient(170deg, white , black, grey);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.Adm{
+    background: linear-gradient(45deg, rgb(8, 82, 72) 10%, #779c91 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #2f746a;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.Ads{
+    background: linear-gradient(45deg, rgb(100, 13, 61) 10%, #994561 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    width: 1750px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #8f2657;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.data-base{
+    background: linear-gradient(45deg, rgb(49, 5, 85) 10%,#6f3e9c 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #3f0c5c;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.eng-comp{
+    background: linear-gradient(45deg, rgb(138, 114, 10) 10%, #c98f38 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #5f5113;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.eng-mec{
+    background: linear-gradient(45deg, rgb(5, 35, 90) 10%, #2993ad 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #215066;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.eng-prod{
+    background: linear-gradient(45deg, rgb(42, 85, 7) 10%, #94c486 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #686825;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.gestao-ti{
+    background: linear-gradient(45deg,#6e2a0f 10%, rgb(163, 70, 70) 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #811b14;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.jogos-dig{
+    background: linear-gradient(45deg, #232324 10%, rgb(78, 78, 78) 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #5c5a5b;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.si{
+    background: linear-gradient(45deg, #9e842d 10%, rgb(214, 178, 60) 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: orange;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.sis-int{
+    background: linear-gradient(45deg,rgb(41, 1, 44) 10%,#892992 70%);
+    position:relative;
+    margin: 0 50px 0 20px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #e83e8c;
+    border-style: outset;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    overflow: auto;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+
+.titulo2{
+    text-align: center;
+    text-shadow: black 10px;
+    font-family:  sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2 h1{
+    border-radius: 10px;
+    border-style: outset;
+    border-color: gray;
+    color: rgb(0, 0, 0);
+    padding: 16px 24px;
+    
+}
+
+
+.fav{
+    width: 500px;
+    min-height: 110px;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(11, 47, 85) 40%, grey 100% );   
+    font-family: "Roboto Slab", serif;  
+    font-optical-sizing: auto;  
+    font-weight: weight;     
+    font-style: normal;
+    color: white;
+    padding: 10px 10px;
+    text-align: justify;
+    margin-left: 1300px;
+}
